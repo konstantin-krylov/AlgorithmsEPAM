@@ -1,10 +1,9 @@
-package com.epam.algorithms;
+package com.epam.algorithms.hw1;
 
-import com.epam.algorithms.hw1.LinkedListPrototype;
 import org.junit.Before;
 import org.junit.Test;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.*;
 
 public class LinkedListPrototypeTest {
 

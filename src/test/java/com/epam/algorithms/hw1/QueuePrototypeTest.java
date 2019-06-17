@@ -1,4 +1,4 @@
-package com.epam.algorithms;
+package com.epam.algorithms.hw1;
 
 import com.epam.algorithms.hw1.QueuePrototype;
 import org.junit.Before;

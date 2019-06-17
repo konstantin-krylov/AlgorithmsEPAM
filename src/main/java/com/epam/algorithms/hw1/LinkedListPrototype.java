@@ -3,7 +3,7 @@ package com.epam.algorithms.hw1;
 import java.util.NoSuchElementException;
 import java.util.Stack;
 
-public class LinkedListPrototype<T extends Number & Comparable<T>> {
+public class LinkedListPrototype<T extends Comparable<T>> {
 
     private Node<T> first;
     private Node<T> last;
@@ -63,15 +63,5 @@ public class LinkedListPrototype<T extends Number & Comparable<T>> {
     public T getMax() {
         return supportStack.peek();
     }
-
-//    public boolean isBalansed(String str) {
-//
-//
-//        for (int i = 0; i < str.length(); i++) {
-//            if (str.charAt(i) == '{') {
-//
-//            }
-//        }
-//    }
 
 }
